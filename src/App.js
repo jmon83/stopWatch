@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="flex items-center w-full px-4 py-10 bg-cover card bg-base-200"
+           style="background-image: url(&quot;https://picsum.photos/id/314/1000/300&quot;);">
+        <div className="card glass lg:card-side text-neutral-content">
+          <figure className="p-6">
+           //COUNTDOWN
+          </figure>
+          <div className="max-w-md card-body">
+            <h2 className="card-title">Stop Watch</h2>
+            <p>A simple React stop watch for the Altcademy. Made with Tailwind and DasiyUI. </p>
+            <div className="card-actions">
+              //Buttons
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }
 
